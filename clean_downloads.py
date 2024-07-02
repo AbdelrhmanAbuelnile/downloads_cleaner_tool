@@ -4,7 +4,7 @@ import os
 import shutil
 
 def clean_downloads():
-    downloads_path = 'C:/Users/abdoh/Downloads'
+    downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads')
     images_path = os.path.join(downloads_path, 'images')
     files_path = os.path.join(downloads_path, 'files')
     other_path = os.path.join(downloads_path, 'other')
