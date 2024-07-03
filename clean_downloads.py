@@ -2,6 +2,7 @@
 
 import os
 import shutil
+import streamlit as st
 
 def clean_downloads():
     downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads')
@@ -40,3 +41,5 @@ def clean_downloads():
 
 if __name__ == "__main__":
     clean_downloads()
+    st.text("Downloads folder cleaned successfully!")
+
