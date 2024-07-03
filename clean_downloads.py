@@ -40,6 +40,8 @@ def clean_downloads():
                 shutil.move(file_path, other_path) 
 
 if __name__ == "__main__":
-    clean_downloads()
-    st.text("Downloads folder cleaned successfully!")
-
+    if st.button("Clean Downloads", on_click=clean_downloads):
+        st.text("Downloads folder cleaned successfully!")
+    
+    # st.page_link("Open Downloads", "google.com")
+    st.markdown("<head><style>a{text-decoration: none; color:#6060a1} a:hover{color:}</style></head><body> <a style='text-decoration: none; color:#6060a1' href='https://github.com/AbdelrhmanAbuelnile ' target='_blank'>Built with ❤ by Abdelrahman</a></body>", unsafe_allow_html=True)
