@@ -40,7 +40,8 @@ def clean_downloads():
                 shutil.move(file_path, other_path) 
 
 if __name__ == "__main__":
-    if st.button("Clean Downloads", on_click=clean_downloads):
+    if st.button("Clean Downloads"):
+        clean_downloads()
         st.text("Downloads folder cleaned successfully!")
     
     # st.page_link("Open Downloads", "google.com")
