@@ -21,7 +21,7 @@ This tool helps you organize your Downloads folder by moving files into categori
 
 ### Using the Executable
 
-1. **Download the Executable**: Download `clean_downloads.exe` from the provided link or location.
+1. **Download the Executable**: Download `clean_downloads.exe` from the  <a href="https://raw.githubusercontent.com/AbdelrhmanAbuelnile/downloads_cleaner_tool/refs/heads/main/clean_downloads.exe">link.</a>
 2. **Add to PATH**:
    - Move `clean_downloads.exe` to a directory.
    - Add this directory to your system's PATH environment variable.
